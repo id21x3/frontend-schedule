@@ -70,7 +70,7 @@ function App() {
   return (
     <div>
       <header className="App-header">
-        <h1>1 týždeň</h1>
+        <h1>L9-B524</h1>
       </header>
       <div className="calendar">
         {daysOfWeek.map((day, index) => (
