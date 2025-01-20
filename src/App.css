@@ -92,3 +92,57 @@ body {
   color: #1c1c1c;
   transform: scale(1.06); 
 }
+
+
+/* Медиа-запрос для маленьких экранов */
+@media (max-width: 800px) {
+  body {
+    padding: 10px; /* Уменьшаем отступы */
+  }
+
+  .App-header {
+    font-size: 1.2rem; /* Уменьшаем размер заголовка */
+    margin-bottom: 10px;
+  }
+
+  .calendar {
+    grid-template-columns: 1fr; /* Все дни в одну колонку */
+    gap: 10px; /* Уменьшаем расстояние между днями */
+  }
+
+  .day {
+    padding: 10px; /* Уменьшаем отступы внутри блока дня */
+    font-size: 0.9rem; /* Уменьшаем общий размер текста */
+    min-height: auto; /* Высота подстраивается под контент */
+  }
+
+  .day h2 {
+    font-size: 1.2rem; /* Уменьшаем размер заголовка дня */
+    margin-bottom: 15px;
+  }
+
+  .day ul li {
+    padding: 8px; /* Уменьшаем внутренние отступы */
+    margin-bottom: 8px; /* Уменьшаем расстояние между уроками */
+  }
+
+  .lesson-details {
+    flex-direction: column; /* Располагаем время и предмет вертикально */
+    align-items: flex-start; /* Выравниваем по левому краю */
+  }
+
+  .lesson-time {
+    margin-bottom: 5px; /* Добавляем отступ между временем и предметом */
+  }
+
+  .note {
+    font-size: 0.8rem; /* Уменьшаем текст заметки */
+    padding: 4px; /* Уменьшаем отступы внутри заметки */
+  }
+
+  .note-icon {
+    width: 24px; /* Уменьшаем размер иконки */
+    height: 24px;
+  }
+}
+
