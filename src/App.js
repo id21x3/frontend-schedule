@@ -46,7 +46,6 @@ function App() {
     "Štvrtok",
     "Piatok",
     "Sobota",
-    "Nedeľa",
   ];
 
   const weekSchedule = [
@@ -76,7 +75,6 @@ function App() {
     [
       { time: "9:10 - 10:40", lesson: "Iný predmet #4", teacher: "Ing. CCC DDD" },
     ],
-    [],
     [],
   ];
 
